@@ -1,10 +1,10 @@
-import { AppPage } from './app.po';
+import { BaseChatPage } from './app.po';
 
 describe('base-chat App', () => {
-  let page: AppPage;
+  let page: BaseChatPage;
 
   beforeEach(() => {
-    page = new AppPage();
+    page = new BaseChatPage();
   });
 
   it('should display welcome message', () => {
